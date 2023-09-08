@@ -8,9 +8,9 @@ default: &default
 
 development:
   <<: *default
-  database: mingleapp_development
+  database: myapp_development
 
 
 test:
   <<: *default
-  database: mingleapp_test
+  database: myapp_test
